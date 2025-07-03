@@ -4,4 +4,9 @@ class Demo
     {
         System.out.println("Hello, World!");
     }
+
+    for(int k=10;k++)
+    {
+        Sop(k);
+    }
 }
