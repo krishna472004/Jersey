@@ -4,6 +4,7 @@ class Demo
     {
         System.out.println("Hello, World!");
     }
+
     for(int i = 0; i < 10; i++)
     {
         System.out.println("Current number: " + i);
@@ -17,3 +18,4 @@ class Demo
 
 
 }
+
