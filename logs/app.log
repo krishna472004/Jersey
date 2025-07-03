@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-26T09:58:06.264319600Z</date>
+  <millis>1750931886264</millis>
+  <nanos>319600</nanos>
+  <sequence>36</sequence>
+  <logger>com.krishna.App7.Filters.RequestLoggingFilter</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Filters.RequestLoggingFilter</class>
+  <method>filter</method>
+  <thread>38</thread>
+  <message>Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/8, User: admin1</message>
+</record>
+<record>
+  <date>2025-06-26T09:58:06.291376600Z</date>
+  <millis>1750931886291</millis>
+  <nanos>376600</nanos>
+  <sequence>37</sequence>
+  <logger>com.krishna.App7.Controller.StudentController</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Controller.StudentController</class>
+  <method>getStudent</method>
+  <thread>38</thread>
+  <message>Fetching student with id: 8</message>
+</record>
+<record>
+  <date>2025-06-26T09:58:06.380457300Z</date>
+  <millis>1750931886380</millis>
+  <nanos>457300</nanos>
+  <sequence>38</sequence>
+  <logger>com.krishna.App7.Controller.StudentController</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Controller.StudentController</class>
+  <method>getStudent</method>
+  <thread>38</thread>
+  <message>Student with id: 8 returned successfully</message>
+</record>
+<record>
+  <date>2025-06-26T09:58:06.407998500Z</date>
+  <millis>1750931886407</millis>
+  <nanos>998500</nanos>
+  <sequence>39</sequence>
+  <logger>com.krishna.App7.Filters.ResponseLoggingFilter</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Filters.ResponseLoggingFilter</class>
+  <method>filter</method>
+  <thread>38</thread>
+  <message>Response sent in 143 ms for GET http://localhost:8081/App7/api/students/8</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-26T10:03:21.982450200Z</date>
+  <millis>1750932201982</millis>
+  <nanos>450200</nanos>
+  <sequence>36</sequence>
+  <logger>com.krishna.App7.Filters.RequestLoggingFilter</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Filters.RequestLoggingFilter</class>
+  <method>filter</method>
+  <thread>37</thread>
+  <message>Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/8, User: admin1</message>
+</record>
+<record>
+  <date>2025-06-26T10:03:21.996197Z</date>
+  <millis>1750932201996</millis>
+  <nanos>197000</nanos>
+  <sequence>37</sequence>
+  <logger>com.krishna.App7.Controller.StudentController</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Controller.StudentController</class>
+  <method>getStudent</method>
+  <thread>37</thread>
+  <message>Fetching student with id: 8</message>
+</record>
+<record>
+  <date>2025-06-26T10:03:22.022580300Z</date>
+  <millis>1750932202022</millis>
+  <nanos>580300</nanos>
+  <sequence>38</sequence>
+  <logger>com.krishna.App7.Controller.StudentController</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Controller.StudentController</class>
+  <method>getStudent</method>
+  <thread>37</thread>
+  <message>Student with id: 8 returned successfully</message>
+</record>
+<record>
+  <date>2025-06-26T10:03:22.030814800Z</date>
+  <millis>1750932202030</millis>
+  <nanos>814800</nanos>
+  <sequence>39</sequence>
+  <logger>com.krishna.App7.Filters.ResponseLoggingFilter</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Filters.ResponseLoggingFilter</class>
+  <method>filter</method>
+  <thread>37</thread>
+  <message>Response sent in 48 ms for GET http://localhost:8081/App7/api/students/8</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-26T10:07:26.659512200Z</date>
+  <millis>1750932446659</millis>
+  <nanos>512200</nanos>
+  <sequence>36</sequence>
+  <logger>com.krishna.App7.Filters.RequestLoggingFilter</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Filters.RequestLoggingFilter</class>
+  <method>filter</method>
+  <thread>36</thread>
+  <message>Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/8, User: admin1</message>
+</record>
+<record>
+  <date>2025-06-26T10:07:26.671511100Z</date>
+  <millis>1750932446671</millis>
+  <nanos>511100</nanos>
+  <sequence>37</sequence>
+  <logger>com.krishna.App7.Controller.StudentController</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Controller.StudentController</class>
+  <method>getStudent</method>
+  <thread>36</thread>
+  <message>Fetching student with id: 8</message>
+</record>
+<record>
+  <date>2025-06-26T10:07:26.695506800Z</date>
+  <millis>1750932446695</millis>
+  <nanos>506800</nanos>
+  <sequence>38</sequence>
+  <logger>com.krishna.App7.Controller.StudentController</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Controller.StudentController</class>
+  <method>getStudent</method>
+  <thread>36</thread>
+  <message>Student with id: 8 returned successfully</message>
+</record>
+<record>
+  <date>2025-06-26T10:07:26.703792100Z</date>
+  <millis>1750932446703</millis>
+  <nanos>792100</nanos>
+  <sequence>39</sequence>
+  <logger>com.krishna.App7.Filters.ResponseLoggingFilter</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Filters.ResponseLoggingFilter</class>
+  <method>filter</method>
+  <thread>36</thread>
+  <message>Response sent in 44 ms for GET http://localhost:8081/App7/api/students/8</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-26T10:11:29.054681100Z</date>
+  <millis>1750932689054</millis>
+  <nanos>681100</nanos>
+  <sequence>36</sequence>
+  <logger>com.krishna.App7.Filters.RequestLoggingFilter</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Filters.RequestLoggingFilter</class>
+  <method>filter</method>
+  <thread>37</thread>
+  <message>Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/8, User: admin1</message>
+</record>
+<record>
+  <date>2025-06-26T10:11:29.068680400Z</date>
+  <millis>1750932689068</millis>
+  <nanos>680400</nanos>
+  <sequence>37</sequence>
+  <logger>com.krishna.App7.Controller.StudentController</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Controller.StudentController</class>
+  <method>getStudent</method>
+  <thread>37</thread>
+  <message>Fetching student with id: 8</message>
+</record>
+<record>
+  <date>2025-06-26T10:11:29.097068500Z</date>
+  <millis>1750932689097</millis>
+  <nanos>68500</nanos>
+  <sequence>38</sequence>
+  <logger>com.krishna.App7.Controller.StudentController</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Controller.StudentController</class>
+  <method>getStudent</method>
+  <thread>37</thread>
+  <message>Student with id: 8 returned successfully</message>
+</record>
+<record>
+  <date>2025-06-26T10:11:29.107447800Z</date>
+  <millis>1750932689107</millis>
+  <nanos>447800</nanos>
+  <sequence>39</sequence>
+  <logger>com.krishna.App7.Filters.ResponseLoggingFilter</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Filters.ResponseLoggingFilter</class>
+  <method>filter</method>
+  <thread>37</thread>
+  <message>Response sent in 53 ms for GET http://localhost:8081/App7/api/students/8</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-26T10:15:16.187319100Z</date>
+  <millis>1750932916187</millis>
+  <nanos>319100</nanos>
+  <sequence>36</sequence>
+  <logger>com.krishna.App7.Filters.RequestLoggingFilter</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Filters.RequestLoggingFilter</class>
+  <method>filter</method>
+  <thread>37</thread>
+  <message>Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/8, User: admin1</message>
+</record>
+<record>
+  <date>2025-06-26T10:15:16.199617Z</date>
+  <millis>1750932916199</millis>
+  <nanos>617000</nanos>
+  <sequence>37</sequence>
+  <logger>com.krishna.App7.Controller.StudentController</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Controller.StudentController</class>
+  <method>getStudent</method>
+  <thread>37</thread>
+  <message>Fetching student with id: 8</message>
+</record>
+<record>
+  <date>2025-06-26T10:15:16.223618400Z</date>
+  <millis>1750932916223</millis>
+  <nanos>618400</nanos>
+  <sequence>38</sequence>
+  <logger>com.krishna.App7.Controller.StudentController</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Controller.StudentController</class>
+  <method>getStudent</method>
+  <thread>37</thread>
+  <message>Student with id: 8 returned successfully</message>
+</record>
+<record>
+  <date>2025-06-26T10:15:16.231617400Z</date>
+  <millis>1750932916231</millis>
+  <nanos>617400</nanos>
+  <sequence>39</sequence>
+  <logger>com.krishna.App7.Filters.ResponseLoggingFilter</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Filters.ResponseLoggingFilter</class>
+  <method>filter</method>
+  <thread>37</thread>
+  <message>Response sent in 44 ms for GET http://localhost:8081/App7/api/students/8</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-26T10:15:59.571247800Z</date>
+  <millis>1750932959571</millis>
+  <nanos>247800</nanos>
+  <sequence>36</sequence>
+  <logger>com.krishna.App7.Filters.RequestLoggingFilter</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Filters.RequestLoggingFilter</class>
+  <method>filter</method>
+  <thread>37</thread>
+  <message>Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/8, User: admin1</message>
+</record>
+<record>
+  <date>2025-06-26T10:15:59.585251700Z</date>
+  <millis>1750932959585</millis>
+  <nanos>251700</nanos>
+  <sequence>37</sequence>
+  <logger>com.krishna.App7.Controller.StudentController</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Controller.StudentController</class>
+  <method>getStudent</method>
+  <thread>37</thread>
+  <message>Fetching student with id: 8</message>
+</record>
+<record>
+  <date>2025-06-26T10:15:59.624286400Z</date>
+  <millis>1750932959624</millis>
+  <nanos>286400</nanos>
+  <sequence>38</sequence>
+  <logger>com.krishna.App7.Controller.StudentController</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Controller.StudentController</class>
+  <method>getStudent</method>
+  <thread>37</thread>
+  <message>Student with id: 8 returned successfully</message>
+</record>
+<record>
+  <date>2025-06-26T10:15:59.637287200Z</date>
+  <millis>1750932959637</millis>
+  <nanos>287200</nanos>
+  <sequence>39</sequence>
+  <logger>com.krishna.App7.Filters.ResponseLoggingFilter</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Filters.ResponseLoggingFilter</class>
+  <method>filter</method>
+  <thread>37</thread>
+  <message>Response sent in 66 ms for GET http://localhost:8081/App7/api/students/8</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-26T10:18:14.995392100Z</date>
+  <millis>1750933094995</millis>
+  <nanos>392100</nanos>
+  <sequence>36</sequence>
+  <logger>com.krishna.App7.Filters.RequestLoggingFilter</logger>
+  <level>INFO</level>
+  <class>com.krishna.App7.Filters.RequestLoggingFilter</class>
+  <method>filter</method>
+  <thread>37</thread>
+  <message>Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/8, User: admin1</message>
+</record>
+[2025-06-26 15:48:15] [INFO] Fetching student with id: {0}
+[2025-06-26 15:48:15] [INFO] Student with id: {0} returned successfully
+[2025-06-26 15:48:15] [INFO] Response sent in 114 ms for GET http://localhost:8081/App7/api/students/8
+[2025-06-26 15:49:18] [INFO] Reloading Context with name [/App7] has started
+[2025-06-26 15:49:18] [WARNING] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-26 15:49:19] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-26 15:49:20] [INFO] Reloading Context with name [/App7] is completed
+[2025-06-26 15:51:33] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/8, User: admin1
+[2025-06-26 15:51:33] [INFO] Fetching student with id: {0}
+[2025-06-26 15:51:33] [INFO] Student with id: {0} returned successfully
+[2025-06-26 15:51:33] [INFO] Response sent in 47 ms for GET http://localhost:8081/App7/api/students/8
+[2025-06-26 15:52:29] [INFO] Reloading Context with name [/App7] has started
+[2025-06-26 15:52:29] [WARNING] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-26 15:52:29] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-26 15:52:31] [INFO] Reloading Context with name [/App7] is completed
+[2025-06-26 15:52:33] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/8, User: admin1
+[2025-06-26 15:52:33] [INFO] Fetching student with id: 8
+[2025-06-26 15:52:33] [INFO] Student with id: {0} returned successfully
+[2025-06-26 15:52:33] [INFO] Response sent in 38 ms for GET http://localhost:8081/App7/api/students/8
+[2025-06-26 15:54:09] [INFO] Reloading Context with name [/App7] has started
+[2025-06-26 15:54:09] [WARNING] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-26 15:54:09] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-26 15:54:11] [INFO] Reloading Context with name [/App7] is completed
+[2025-06-26 15:54:21] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/8, User: admin1
+[2025-06-26 15:54:21] [INFO] Fetching student with id: 8
+[2025-06-26 15:54:21] [INFO] Student with id: 8 returned successfully
+[2025-06-26 15:54:21] [INFO] Response sent in 45 ms for GET http://localhost:8081/App7/api/students/8
+[2025-06-26 16:19:43] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1
+[2025-06-26 16:19:43] [INFO] Fetching student with id: 7
+[2025-06-26 16:19:43] [INFO] Student with id: 7 returned successfully
+[2025-06-26 16:19:43] [INFO] Response sent in 39 ms for GET http://localhost:8081/App7/api/students/7
+[2025-06-26 16:42:54] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1
+[2025-06-26 16:42:54] [INFO] Fetching student with id: 7
+[2025-06-26 16:42:54] [INFO] Student with id: 7 returned successfully
+[2025-06-26 16:42:54] [INFO] Response sent in 4 ms for GET http://localhost:8081/App7/api/students/7
+[2025-06-26 17:53:43] [INFO] Reloading Context with name [/App7] has started
+[2025-06-26 17:53:43] [WARNING] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-26 17:53:44] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-26 17:53:45] [INFO] Reloading Context with name [/App7] is completed
+[2025-06-26 17:55:37] [INFO] Reloading Context with name [/App7] has started
+[2025-06-26 17:55:38] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-26 17:55:39] [INFO] Reloading Context with name [/App7] is completed
+[2025-06-26 17:55:43] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1
+[2025-06-26 17:55:43] [INFO] Fetching student with id: 7
+[2025-06-26 17:55:43] [INFO] Student with id: 7 returned successfully
+[2025-06-26 17:55:43] [INFO] The Student email is: null returned successfully
+[2025-06-26 17:55:43] [INFO] Response sent in 38 ms for GET http://localhost:8081/App7/api/students/7
+[2025-06-26 18:03:16] [INFO] Reloading Context with name [/App7] has started
+[2025-06-26 18:03:16] [WARNING] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-26 18:03:17] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-26 18:03:19] [INFO] Reloading Context with name [/App7] is completed
+[2025-06-26 18:03:19] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1
+[2025-06-26 18:03:19] [INFO] Fetching student with id: 7
+[2025-06-26 18:03:20] [INFO] Student with id: 7 returned successfully
+[2025-06-26 18:03:20] [INFO] The Student email is: sampleemail123@gmail.com returned successfully
+[2025-06-26 18:03:20] [INFO] Response sent in 49 ms for GET http://localhost:8081/App7/api/students/7
+[2025-06-26 18:03:42] [INFO] Reloading Context with name [/App7] has started
+[2025-06-26 18:03:42] [WARNING] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-26 18:03:42] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-26 18:03:44] [INFO] Reloading Context with name [/App7] is completed
+[2025-06-26 18:05:00] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1
+[2025-06-26 18:05:00] [INFO] Fetching student with id: 7
+[2025-06-26 18:05:00] [INFO] Student with id: 7 returned successfully
+[2025-06-26 18:05:00] [INFO] The Student email is: sampleemail123@gmail.com returned successfully
+[2025-06-26 18:05:00] [INFO] Response sent in 57 ms for GET http://localhost:8081/App7/api/students/7
+[2025-06-26 18:07:16] [INFO] Reloading Context with name [/App7] has started
+[2025-06-26 18:07:16] [WARNING] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-26 18:07:17] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-26 18:07:19] [INFO] Reloading Context with name [/App7] is completed
+[2025-06-26 18:07:21] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1
+[2025-06-26 18:07:21] [INFO] Fetching student with id: 7
+[2025-06-26 18:07:21] [INFO] Student with id: 7 returned successfully
+[2025-06-26 18:07:21] [INFO] The Student email is: sampleemail123@gmail.com returned successfully
+[2025-06-26 18:07:21] [INFO] Response sent in 59 ms for GET http://localhost:8081/App7/api/students/7
+[2025-06-26 18:08:59] [INFO] Reloading Context with name [/App7] has started
+[2025-06-26 18:08:59] [WARNING] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-26 18:09:00] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-26 18:09:01] [INFO] Reloading Context with name [/App7] is completed
+[2025-06-26 18:09:04] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1 
+[2025-06-26 18:09:04] [INFO] Fetching student with id: 7 
+[2025-06-26 18:09:04] [INFO] Student with id: 7 returned successfully 
+[2025-06-26 18:09:04] [INFO] The Student email is: sampleemail123@gmail.com returned successfully 
+[2025-06-26 18:09:04] [INFO] Response sent in 39 ms for GET http://localhost:8081/App7/api/students/7 
+[2025-06-26 18:09:57] [INFO] Reloading Context with name [/App7] has started 
+[2025-06-26 18:09:57] [WARNING] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered. 
+[2025-06-26 18:09:59] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+[2025-06-26 18:10:02] [INFO] Reloading Context with name [/App7] is completed 
+[2025-06-26 18:14:59] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1 
+[2025-06-26 18:14:59] [INFO] Fetching student with id: 7 
+[2025-06-26 18:14:59] [INFO] Student with id: 7 returned successfully 
+[2025-06-26 18:14:59] [INFO] The Student email is: sampleemail123@gmail.com returned successfully 
+[2025-06-26 18:14:59] [INFO] Response sent in 49 ms for GET http://localhost:8081/App7/api/students/7 
+[2025-06-26 18:19:04] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1 
+[2025-06-26 18:19:04] [INFO] Fetching student with id: 7 
+[2025-06-26 18:19:04] [INFO] Student with id: 7 returned successfully 
+[2025-06-26 18:19:04] [INFO] The Student email is: sampleemail123@gmail.com returned successfully 
+[2025-06-26 18:19:04] [INFO] Response sent in 48 ms for GET http://localhost:8081/App7/api/students/7 
+[2025-06-27 09:29:16] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1 
+[2025-06-27 09:29:16] [INFO] Fetching student with id: 7 
+[2025-06-27 09:29:16] [INFO] Student with id: 7 returned successfully 
+[2025-06-27 09:29:16] [INFO] The Student email is: sampleemail123@gmail.com returned successfully 
+[2025-06-27 09:29:16] [INFO] Response sent in 94 ms for GET http://localhost:8081/App7/api/students/7 
+[2025-06-27 09:34:10] [INFO] Reloading Context with name [/App7] has started 
+[2025-06-27 09:34:10] [WARNING] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered. 
+[2025-06-27 09:34:10] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+[2025-06-27 09:34:11] [INFO] Reloading Context with name [/App7] is completed 
+[2025-06-27 09:37:39] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1 
+[2025-06-27 09:37:39] [INFO] Fetching student with id: 7 
+[2025-06-27 09:37:39] [INFO] Student with id: 7 returned successfully 
+[2025-06-27 09:37:39] [INFO] The Student email is: sampleemail123@gmail.com returned successfully 
+[2025-06-27 09:37:39] [INFO] Response sent in 34 ms for GET http://localhost:8081/App7/api/students/7 
+[2025-06-27 09:38:25] [INFO] Reloading Context with name [/App7] has started 
+[2025-06-27 09:38:25] [WARNING] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered. 
+[2025-06-27 09:38:25] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+[2025-06-27 09:38:26] [INFO] Reloading Context with name [/App7] is completed 
+[2025-06-27 09:39:01] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1 
+[2025-06-27 09:39:01] [INFO] Fetching student with id: 7 
+[2025-06-27 09:39:01] [INFO] Student with id: 7 returned successfully 
+[2025-06-27 09:39:01] [INFO] The Student email is: sampleemail123@gmail.com returned successfully 
+[2025-06-27 09:39:01] [INFO] Response sent in 56 ms for GET http://localhost:8081/App7/api/students/7 
+[2025-06-27 09:40:00] [INFO] Reloading Context with name [/App7] has started 
+[2025-06-27 09:40:00] [WARNING] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered. 
+[2025-06-27 09:40:01] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+[2025-06-27 09:40:02] [INFO] Reloading Context with name [/App7] is completed 
+[2025-06-27 09:40:11] [INFO] A valid shutdown command was received via the shutdown port. Stopping the Server instance. 
+[2025-06-27 09:40:11] [INFO] Pausing ProtocolHandler ["http-nio-8081"] 
+[2025-06-27 09:40:11] [INFO] Stopping service [Catalina] 
+[2025-06-27 09:40:11] [INFO] Stopping ProtocolHandler ["http-nio-8081"] 
+[2025-06-27 09:40:11] [INFO] Destroying ProtocolHandler ["http-nio-8081"] 
+[2025-06-27 09:40:19] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1 
+[2025-06-27 09:40:19] [INFO] Fetching student with id: 7 
+[2025-06-27 09:40:19] [INFO] Student with id: 7 returned successfully 
+[2025-06-27 09:40:19] [INFO] The Student email is: sampleemail123@gmail.com returned successfully 
+[2025-06-27 09:40:19] [INFO] Response sent in 39 ms for GET http://localhost:8081/App7/api/students/7 
+[2025-06-27 09:43:06] [INFO] Reloading Context with name [/App7] has started 
+[2025-06-27 09:43:06] [WARNING] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered. 
+[2025-06-27 09:43:07] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+[2025-06-27 09:43:09] [INFO] Reloading Context with name [/App7] is completed 
+[2025-06-27 09:43:17] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1 
+[2025-06-27 09:43:17] [INFO] Fetching student with id: 7 
+[2025-06-27 09:43:17] [INFO] Student with id: 7 returned successfully 
+[2025-06-27 09:43:17] [INFO] The Student email is: sa************@gmail.com returned successfully 
+[2025-06-27 09:43:17] [INFO] Response sent in 43 ms for GET http://localhost:8081/App7/api/students/7 
+[2025-06-27 10:07:06] [INFO] Reloading Context with name [/App7] has started 
+[2025-06-27 10:07:06] [WARNING] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered. 
+[2025-06-27 10:07:07] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+[2025-06-27 10:07:08] [INFO] Reloading Context with name [/App7] is completed 
+[2025-06-27 10:07:23] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1
+[2025-06-27 10:07:23] [INFO] Fetching student with id: 7
+[2025-06-27 10:07:23] [INFO] Student with id: 7 returned successfully
+[2025-06-27 10:07:23] [INFO] The Student email is: sa************@gmail.com returned successfully 
+[2025-06-27 10:07:23] [INFO] Response sent in 43 ms for GET http://localhost:8081/App7/api/students/7
+[2025-06-27 10:08:26] [INFO] Reloading Context with name [/App7] has started
+[2025-06-27 10:08:26] [WARNING] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-27 10:08:26] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 10:08:28] [INFO] Reloading Context with name [/App7] is completed
+[2025-06-27 10:23:58] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1
+[2025-06-27 10:23:59] [INFO] Fetching student with id: 7
+[2025-06-27 10:23:59] [INFO] Student with id: 7 returned successfully
+[2025-06-27 10:23:59] [INFO] The Student email is: sa************@gmail.com 
+[2025-06-27 10:23:59] [INFO] Response sent in 79 ms for GET http://localhost:8081/App7/api/students/7
+[2025-06-27 10:24:30] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1
+[2025-06-27 10:24:30] [INFO] Fetching student with id: 7
+[2025-06-27 10:24:30] [INFO] Student with id: 7 returned successfully
+[2025-06-27 10:24:30] [INFO] The Student email is: sampleemail123@gmail.com
+[2025-06-27 10:24:30] [INFO] Response sent in 144 ms for GET http://localhost:8081/App7/api/students/7
+[2025-06-27 10:28:41] [INFO] Reloading Context with name [/App7] has started
+[2025-06-27 10:28:41] [WARNING] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-27 10:28:42] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 10:28:43] [INFO] Reloading Context with name [/App7] is completed
+[2025-06-27 10:28:50] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1
+[2025-06-27 10:28:50] [INFO] Fetching student with id: 7
+[2025-06-27 10:28:50] [INFO] Student with id: 7 returned successfully
+[2025-06-27 10:28:50] [INFO] The Student email is: sa************@gmail.com 
+[2025-06-27 10:28:50] [INFO] Response sent in 38 ms for GET http://localhost:8081/App7/api/students/7
+[2025-06-27 10:30:51] [INFO] Reloading Context with name [/App7] has started
+[2025-06-27 10:30:51] [WARNING] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-27 10:30:52] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 10:30:53] [INFO] Reloading Context with name [/App7] is completed
+[2025-06-27 10:31:27] [INFO] Reloading Context with name [/App7] has started
+[2025-06-27 10:31:28] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 10:31:29] [INFO] Reloading Context with name [/App7] is completed
+[2025-06-27 10:31:52] [INFO] Reloading Context with name [/App7] has started
+[2025-06-27 10:31:53] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 10:31:54] [INFO] Reloading Context with name [/App7] is completed
+[2025-06-27 10:32:06] [INFO] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1
+[2025-06-27 10:32:06] [INFO] Fetching student with id: 7
+[2025-06-27 10:32:06] [INFO] Student with id: 7 returned successfully
+[2025-06-27 10:32:06] [INFO] The Student email is: sa************@gmail.com 
+[2025-06-27 10:32:06] [INFO] Response sent in 29 ms for GET http://localhost:8081/App7/api/students/7
+[2025-06-27 10:51:21] [INFO] Reloading Context with name [/App7] has started
+[2025-06-27 10:51:21] [WARNING] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-27 10:51:22] [INFO] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 10:51:24] [INFO] Reloading Context with name [/App7] is completed
+[2025-06-27 11:26:33] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1
+[2025-06-27 11:26:33] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-06-27 11:26:33] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-06-27 11:26:33] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-27 11:26:33] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 41 ms for GET http://localhost:8081/App7/api/students/7
+[2025-06-27 11:33:56] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-27 11:33:56] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-27 11:33:57] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 11:33:58] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-27 11:57:07] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1
+[2025-06-27 11:57:07] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-06-27 11:57:07] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-06-27 11:57:07] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-27 11:57:07] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 101 ms for GET http://localhost:8081/App7/api/students/7
+[2025-06-27 12:48:30] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1
+[2025-06-27 12:48:30] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-06-27 12:48:30] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-06-27 12:48:30] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-27 12:48:30] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 146 ms for GET http://localhost:8081/App7/api/students/7
+[2025-06-27 12:49:25] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error occurred when processing a response created from an already mapped exception.
+[2025-06-27 12:49:25] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-06-27 12:49:25] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "jakarta.ws.rs.container.ContainerRequestContext.getProperty(String)" is null] with root cause
+[2025-06-27 12:53:40] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-27 12:53:40] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-27 12:53:41] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 12:53:43] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-27 12:56:47] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-27 12:56:48] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 12:56:49] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-27 12:56:49] [WARNING] [com.krishna.App7.Filters.ResponseLoggingFilter] start-time not set in request context. Skipping duration log.
+[2025-06-27 12:58:42] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-27 12:58:42] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 12:58:44] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-27 13:02:16] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: admin1
+[2025-06-27 13:02:16] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-06-27 13:02:16] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-06-27 13:02:16] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-27 13:02:27] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: admin1
+[2025-06-27 13:02:27] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-06-27 13:02:27] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-06-27 13:02:50] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-06-27 13:02:50] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-06-27 13:02:50] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "role" is null] with root cause
+[2025-06-27 13:03:32] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-06-27 13:03:32] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-06-27 13:03:32] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "role" is null] with root cause
+[2025-06-27 13:03:36] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-06-27 13:03:36] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-06-27 13:03:36] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "role" is null] with root cause
+[2025-06-27 13:05:13] [WARNING] [com.krishna.App7.Filters.ResponseLoggingFilter] Unauthorized action
+[2025-06-27 13:05:45] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-27 13:05:45] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-27 13:05:46] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 13:05:47] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-27 13:05:58] [WARNING] [com.krishna.App7.Filters.ResponseLoggingFilter] Unauthorized action
+[2025-06-27 13:06:33] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-27 13:06:33] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-27 13:06:33] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 13:06:34] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-27 13:06:46] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-27 13:06:46] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 13:06:48] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-27 13:06:57] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: admin1
+[2025-06-27 13:06:57] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 7
+[2025-06-27 13:06:57] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 is updated
+[2025-06-27 13:07:44] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-27 13:07:44] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-27 13:07:45] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 13:07:46] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-27 13:07:51] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: admin1
+[2025-06-27 13:07:51] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 7
+[2025-06-27 13:07:51] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 is updated
+[2025-06-27 13:07:51] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-06-27 13:07:51] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because "startTime" is null] with root cause
+[2025-06-27 13:10:13] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-27 13:10:13] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-27 13:10:14] [INFO] [org.apache.catalina.core.StandardServer] A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+[2025-06-27 13:10:14] [INFO] [org.apache.coyote.http11.Http11NioProtocol] Pausing ProtocolHandler ["http-nio-8081"]
+[2025-06-27 13:10:14] [INFO] [org.apache.catalina.core.StandardService] Stopping service [Catalina]
+[2025-06-27 13:10:14] [INFO] [org.apache.coyote.http11.Http11NioProtocol] Stopping ProtocolHandler ["http-nio-8081"]
+[2025-06-27 13:10:14] [INFO] [org.apache.coyote.http11.Http11NioProtocol] Destroying ProtocolHandler ["http-nio-8081"]
+[2025-06-27 13:10:14] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 13:10:15] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-27 13:10:15] [SEVERE] [org.apache.catalina.core.ContainerBase] Error destroying child
+[2025-06-27 13:10:23] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: admin1
+[2025-06-27 13:10:23] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 7
+[2025-06-27 13:10:23] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 is updated
+[2025-06-27 13:10:24] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-06-27 13:10:24] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because "startTime" is null] with root cause
+[2025-06-27 13:10:25] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: admin1
+[2025-06-27 13:10:25] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 7
+[2025-06-27 13:10:25] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 is updated
+[2025-06-27 13:10:25] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-06-27 13:10:26] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because "startTime" is null] with root cause
+[2025-06-27 13:10:56] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-27 13:10:56] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-27 13:10:57] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 13:10:58] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-27 13:11:31] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-27 13:11:32] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 13:11:33] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-27 13:18:22] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-27 13:18:23] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 13:18:25] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-27 13:20:42] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: admin1
+[2025-06-27 13:20:42] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 7
+[2025-06-27 13:20:42] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 is updated
+[2025-06-27 13:20:42] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response Status: 200
+[2025-06-27 13:50:44] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: admin1
+[2025-06-27 13:50:44] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 7
+[2025-06-27 13:50:44] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 is updated
+[2025-06-27 13:50:44] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response Status: 200
+[2025-06-27 13:50:49] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: admin1
+[2025-06-27 13:50:49] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-06-27 13:50:49] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-06-27 13:50:49] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response Status: 200
+[2025-06-27 13:51:56] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-27 13:51:56] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-27 13:51:57] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 13:51:58] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-27 13:54:18] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: admin1
+[2025-06-27 13:54:18] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-06-27 13:54:18] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-06-27 13:54:18] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response Status: 200
+[2025-06-27 17:04:49] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: null
+[2025-06-27 17:04:49] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-06-27 17:04:50] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 is added to cache
+[2025-06-27 17:04:50] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-06-27 17:04:50] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-27 17:04:50] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response Status: 200
+[2025-06-27 17:05:02] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: null
+[2025-06-27 17:05:02] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-06-27 17:05:02] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 7
+[2025-06-27 17:05:02] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-06-27 17:05:02] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-27 17:05:02] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response Status: 200
+[2025-06-27 17:05:42] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-27 17:05:42] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-27 17:05:44] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 17:05:45] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-27 17:06:34] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: null
+[2025-06-27 17:06:34] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-06-27 17:06:35] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 is added to cache
+[2025-06-27 17:06:35] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-06-27 17:06:35] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-27 17:06:35] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-06-27 17:06:35] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because "startTime" is null] with root cause
+[2025-06-27 17:07:23] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-27 17:07:23] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-27 17:07:24] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 17:07:26] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-27 17:07:26] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: null
+[2025-06-27 17:07:26] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-06-27 17:07:26] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 7
+[2025-06-27 17:07:26] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-06-27 17:07:26] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-27 17:07:26] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 292 ms for GET http://localhost:8081/App7/api/students/7
+[2025-06-27 17:07:26] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response Status: 200
+[2025-06-27 17:08:32] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: null
+[2025-06-27 17:08:32] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-06-27 17:08:32] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 7
+[2025-06-27 17:08:32] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-06-27 17:08:32] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-27 17:08:32] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 8 ms for GET http://localhost:8081/App7/api/students/7
+[2025-06-27 17:08:32] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response Status: 200
+[2025-06-27 17:08:35] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-27 17:08:35] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-27 17:08:36] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 17:08:39] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-27 18:08:59] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: null
+[2025-06-27 18:08:59] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-06-27 18:08:59] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-06-27 18:08:59] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 216 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 500
+[2025-06-27 18:08:59] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-06-27 18:08:59] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-06-27 18:18:08] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-27 18:18:08] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-27 18:18:09] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-27 18:18:10] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 15:41:41] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/6, User: null
+[2025-06-30 15:41:41] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 6
+[2025-06-30 15:41:41] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 6 is added to cache
+[2025-06-30 15:41:41] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 6 returned successfully
+[2025-06-30 15:41:41] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-30 15:41:41] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 372 ms for GET http://localhost:8081/App7/api/students/6 ,Response Status: 200
+[2025-06-30 15:41:50] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/6, User: null
+[2025-06-30 15:41:50] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 6
+[2025-06-30 15:41:50] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 6
+[2025-06-30 15:41:50] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-06-30 15:41:50] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 13 ms for GET http://localhost:8081/App7/api/students/6 ,Response Status: 500
+[2025-06-30 15:41:50] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-06-30 15:41:50] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [java.lang.ClassCastException: class java.util.HashMap cannot be cast to class com.krishna.App7.Model.Student (java.util.HashMap is in module java.base of loader 'bootstrap'; com.krishna.App7.Model.Student is in unnamed module of loader org.apache.catalina.loader.ParallelWebappClassLoader @18bc345)] with root cause
+[2025-06-30 15:46:45] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 15:46:45] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-30 15:46:46] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 15:46:48] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 15:50:55] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 15:50:56] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 15:50:57] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 15:51:11] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/6, User: null
+[2025-06-30 15:51:11] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 6
+[2025-06-30 15:51:11] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 6 is added to cache
+[2025-06-30 15:51:11] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 6 returned successfully
+[2025-06-30 15:51:11] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-30 15:51:11] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 159 ms for GET http://localhost:8081/App7/api/students/6 ,Response Status: 200
+[2025-06-30 15:51:13] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/6, User: null
+[2025-06-30 15:51:13] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 6
+[2025-06-30 15:51:13] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 6
+[2025-06-30 15:51:13] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 6 returned successfully
+[2025-06-30 15:51:13] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-30 15:51:13] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 8 ms for GET http://localhost:8081/App7/api/students/6 ,Response Status: 200
+[2025-06-30 15:51:23] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: null
+[2025-06-30 15:51:23] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-06-30 15:51:23] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 is added to cache
+[2025-06-30 15:51:23] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-06-30 15:51:23] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-30 15:51:23] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 5 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 200
+[2025-06-30 15:51:44] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/8, User: null
+[2025-06-30 15:51:44] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 8
+[2025-06-30 15:51:44] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 8 is added to cache
+[2025-06-30 15:51:44] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 8 returned successfully
+[2025-06-30 15:51:44] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-30 15:51:44] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 8 ms for GET http://localhost:8081/App7/api/students/8 ,Response Status: 200
+[2025-06-30 15:51:49] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/9, User: null
+[2025-06-30 15:51:49] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 9
+[2025-06-30 15:51:49] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 9 is added to cache
+[2025-06-30 15:51:49] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 9 returned successfully
+[2025-06-30 15:51:49] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-30 15:51:49] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 6 ms for GET http://localhost:8081/App7/api/students/9 ,Response Status: 200
+[2025-06-30 15:53:35] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: null
+[2025-06-30 15:53:35] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-06-30 15:53:35] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 is added to cache
+[2025-06-30 15:53:35] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-06-30 15:53:35] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-30 15:53:35] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 12 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 200
+[2025-06-30 15:53:58] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: null
+[2025-06-30 15:53:58] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-06-30 15:53:58] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 7
+[2025-06-30 15:53:58] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-06-30 15:53:58] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-30 15:53:58] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 4 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 200
+[2025-06-30 15:57:49] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 15:57:49] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-30 15:57:50] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 15:57:51] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 16:01:12] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 16:01:13] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 16:01:14] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 16:01:58] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 16:01:59] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 16:02:00] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 16:02:22] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 16:02:23] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 16:02:24] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 16:02:57] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 16:02:58] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 16:02:59] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 16:04:07] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 16:04:07] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 16:04:08] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 16:05:04] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 16:05:05] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 16:05:06] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 16:05:17] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/8, User: null
+[2025-06-30 16:05:17] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 8
+[2025-06-30 16:05:17] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 8 is added to cache
+[2025-06-30 16:05:17] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 8 returned successfully
+[2025-06-30 16:05:17] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-30 16:05:17] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 163 ms for GET http://localhost:8081/App7/api/students/8 ,Response Status: 200
+[2025-06-30 16:05:41] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/8, User: null
+[2025-06-30 16:05:41] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 8
+[2025-06-30 16:05:41] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 8
+[2025-06-30 16:05:41] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 8 returned successfully
+[2025-06-30 16:05:41] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-30 16:05:41] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 6 ms for GET http://localhost:8081/App7/api/students/8 ,Response Status: 200
+[2025-06-30 16:34:42] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 16:34:42] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-30 16:34:43] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 16:34:44] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 16:47:26] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 16:47:27] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 16:47:28] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 16:47:32] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/8, User: null
+[2025-06-30 16:47:32] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 8
+[2025-06-30 16:47:32] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 8
+[2025-06-30 16:47:32] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 8 returned successfully
+[2025-06-30 16:47:32] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-30 16:47:32] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 150 ms for GET http://localhost:8081/App7/api/students/8 ,Response Status: 200
+
+
+[2025-06-30 16:47:38] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/8, User: null
+[2025-06-30 16:47:38] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 8
+[2025-06-30 16:47:38] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 8
+[2025-06-30 16:47:38] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 8 returned successfully
+[2025-06-30 16:47:38] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-30 16:47:38] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 8 ms for GET http://localhost:8081/App7/api/students/8 ,Response Status: 200
+
+
+[2025-06-30 16:47:51] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 16:47:51] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-30 16:47:52] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 16:47:53] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 16:47:54] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/8, User: null
+[2025-06-30 16:47:54] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 8
+[2025-06-30 16:47:54] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 8
+[2025-06-30 16:47:54] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 8 returned successfully
+[2025-06-30 16:47:54] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-30 16:47:54] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 205 ms for GET http://localhost:8081/App7/api/students/8 ,Response Status: 200
+
+[2025-06-30 16:47:59] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/8, User: null
+[2025-06-30 16:47:59] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 8
+[2025-06-30 16:47:59] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 8
+[2025-06-30 16:47:59] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 8 returned successfully
+[2025-06-30 16:47:59] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-30 16:47:59] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 10 ms for GET http://localhost:8081/App7/api/students/8 ,Response Status: 200
+
+[2025-06-30 17:04:57] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 17:04:57] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-30 17:04:58] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 17:04:59] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 17:14:18] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 17:14:19] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 17:14:20] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 17:14:35] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-06-30 17:14:35] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-06-30 17:14:35] [INFO] [com.krishna.App7.Controller.StudentController] Adding students data in cache...
+[2025-06-30 17:14:35] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-06-30 17:14:35] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 501 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-06-30 17:15:01] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-06-30 17:15:01] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-06-30 17:15:01] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit of fetching of all students
+[2025-06-30 17:15:01] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-06-30 17:15:01] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 91 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-06-30 17:15:31] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 17:15:31] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-30 17:15:32] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 17:15:33] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 17:18:39] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 17:18:40] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 17:18:41] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 17:20:02] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 17:20:03] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 17:20:04] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 17:20:15] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 17:20:16] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 17:20:17] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 17:21:24] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 17:21:25] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 17:21:26] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 17:23:25] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-06-30 17:23:25] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-06-30 17:23:25] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-06-30 17:23:25] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-06-30 17:23:25] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 276 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-06-30 17:23:40] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-06-30 17:23:40] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-06-30 17:23:40] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-06-30 17:23:40] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-06-30 17:23:40] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 5 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-06-30 17:30:21] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-06-30 17:30:21] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-06-30 17:30:22] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-06-30 17:30:23] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-06-30 17:30:25] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-06-30 17:30:25] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-06-30 17:30:25] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-06-30 17:30:25] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-06-30 17:30:25] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 220 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-06-30 17:30:31] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-06-30 17:30:31] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-06-30 17:30:31] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-06-30 17:30:31] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-06-30 17:30:31] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 8 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-06-30 17:30:36] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-06-30 17:30:36] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-06-30 17:30:36] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-06-30 17:30:36] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-06-30 17:30:36] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 16 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-06-30 17:32:32] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-06-30 17:32:32] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-06-30 17:32:32] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-06-30 17:32:32] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-06-30 17:32:32] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 11 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-06-30 17:45:20] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: null
+[2025-06-30 17:45:20] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-06-30 17:45:20] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 7
+[2025-06-30 17:45:20] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-06-30 17:45:20] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-06-30 17:45:20] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 200 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 200
+
+[2025-07-01 11:39:27] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-01 11:39:27] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-01 11:39:27] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-01 11:39:27] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-01 11:39:27] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 672 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-07-01 11:39:41] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-01 11:39:41] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-01 11:39:41] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-01 11:39:41] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-01 11:39:41] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 23 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-07-01 11:40:19] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-01 11:40:19] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-01 11:40:19] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-01 11:40:19] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-01 11:40:19] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 10 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-07-01 11:41:08] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: POST, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-01 11:41:08] [INFO] [com.krishna.App7.Controller.StudentController] Creating new student
+[2025-07-01 11:41:08] [INFO] [com.krishna.App7.Controller.StudentController] The student data is added to db
+[2025-07-01 11:41:08] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 229 ms for POST http://localhost:8081/App7/api/students ,Response Status: 201
+
+[2025-07-01 11:41:36] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: DELETE, Path: http://localhost:8081/App7/api/students/12, User: user1
+[2025-07-01 11:41:36] [INFO] [com.krishna.App7.Controller.StudentController] Deleting student with id: 12
+[2025-07-01 11:41:36] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 12 is deleted
+[2025-07-01 11:41:36] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 61 ms for DELETE http://localhost:8081/App7/api/students/12 ,Response Status: 200
+
+[2025-07-01 11:41:46] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-01 11:41:46] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-01 11:41:46] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-01 11:41:46] [INFO] [com.krishna.App7.Controller.StudentController] Adding students data in cache...
+[2025-07-01 11:41:46] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-01 11:41:46] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 32 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-07-01 11:42:11] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-01 11:42:11] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-01 11:42:11] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-01 11:42:11] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-01 11:42:11] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 25 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-07-01 11:42:15] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-01 11:42:15] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-01 11:42:15] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-01 11:42:15] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-01 11:42:15] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 6 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-07-01 11:42:17] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-01 11:42:17] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-01 11:42:17] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-01 11:42:17] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-01 11:42:17] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 12 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-07-01 18:18:58] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-01 18:18:58] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-07-01 18:18:58] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-01 18:18:58] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 236 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 500
+
+[2025-07-01 18:18:58] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-01 18:18:58] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-01 18:19:37] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-01 18:19:37] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-07-01 18:19:37] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-01 18:19:37] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 32 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 500
+
+[2025-07-01 18:19:37] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-01 18:19:37] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-01 18:20:21] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-01 18:20:21] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-07-01 18:20:21] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 7
+[2025-07-01 18:20:21] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-07-01 18:20:21] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-01 18:20:21] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 315 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 200
+
+[2025-07-01 18:20:37] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-01 18:20:37] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-07-01 18:20:37] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 7
+[2025-07-01 18:20:37] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-07-01 18:20:37] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-01 18:20:37] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 35 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 200
+
+[2025-07-02 09:31:46] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-02 09:31:46] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-07-02 09:31:46] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-02 09:31:46] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 403 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 500
+
+[2025-07-02 09:31:46] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-02 09:31:46] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-02 09:32:34] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-02 09:32:34] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-07-02 09:32:34] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 7
+[2025-07-02 09:32:34] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-07-02 09:32:34] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 09:32:35] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 290 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 200
+
+[2025-07-02 10:27:00] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 10:27:00] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 10:27:01] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 10:27:03] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 10:30:00] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-02 10:30:00] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-07-02 10:30:00] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-02 10:30:00] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 172 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 500
+
+[2025-07-02 10:30:00] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-02 10:30:00] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-02 10:30:38] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-02 10:30:38] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-07-02 10:30:38] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 7
+[2025-07-02 10:30:38] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-07-02 10:30:38] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 10:30:38] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 434 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 200
+
+[2025-07-02 10:32:57] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 10:32:57] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 10:32:58] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 10:33:00] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 10:33:02] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-02 10:33:02] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-02 10:33:02] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 20 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 500
+
+[2025-07-02 10:33:02] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-02 10:33:02] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.ContainerException: java.lang.Error: Unresolved compilation problems: 
+	The method addLink(String, String) is undefined for the type Student
+	The method addLink(String, String) is undefined for the type Student
+	The method addLink(String, String) is undefined for the type Student
+	The method addLink(String, String) is undefined for the type Student
+] with root cause
+[2025-07-02 10:33:58] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 10:33:58] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 10:33:59] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 10:34:00] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 10:34:04] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-02 10:34:04] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-07-02 10:34:04] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 7
+[2025-07-02 10:34:04] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-07-02 10:34:04] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 10:34:04] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 225 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 200
+
+[2025-07-02 10:36:50] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 10:36:50] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 10:36:51] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 10:36:52] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 10:37:25] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 10:37:26] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 10:37:27] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 10:37:46] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-02 10:37:46] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-07-02 10:37:46] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 7
+[2025-07-02 10:37:47] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-07-02 10:37:47] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 10:37:47] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 355 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 200
+
+[2025-07-02 10:42:15] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 10:42:15] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 10:42:17] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 10:42:20] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 10:43:56] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 10:43:57] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 10:43:58] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 10:48:47] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-02 10:48:47] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-07-02 10:48:47] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 7
+[2025-07-02 10:48:48] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-07-02 10:48:48] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 10:48:48] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 661 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 200
+
+[2025-07-02 10:52:39] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 10:52:39] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 10:52:40] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 10:52:42] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 10:52:44] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-02 10:52:44] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-02 10:52:44] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 25 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 500
+
+[2025-07-02 10:52:44] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-02 10:52:44] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.ContainerException: java.lang.Error: Unresolved compilation problems: 
+	student cannot be resolved to a variable
+	student cannot be resolved
+	student cannot be resolved
+	student cannot be resolved
+	student cannot be resolved
+	student cannot be resolved
+	student cannot be resolved
+	student cannot be resolved
+	student cannot be resolved
+	student cannot be resolved
+	student cannot be resolved
+	student cannot be resolved to a variable
+	Duplicate local variable xml
+] with root cause
+[2025-07-02 10:54:57] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 10:54:57] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 10:54:58] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 10:54:59] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 10:56:23] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 10:56:24] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 10:56:25] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 10:56:28] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-02 10:56:28] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-07-02 10:56:28] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-02 10:56:28] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 is added to cache
+[2025-07-02 10:56:28] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-07-02 10:56:28] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 10:56:28] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 221 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 200
+
+[2025-07-02 10:59:12] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 10:59:12] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 10:59:13] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 10:59:14] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 10:59:25] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 10:59:26] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 10:59:27] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 11:06:08] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 11:06:09] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 11:06:10] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 11:06:17] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-02 11:06:17] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-07-02 11:06:18] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-02 11:06:18] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 is added to cache
+[2025-07-02 11:06:18] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-07-02 11:06:18] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 11:06:18] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 180 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 200
+
+[2025-07-02 11:06:29] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-02 11:06:29] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-07-02 11:06:29] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 7
+[2025-07-02 11:06:29] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-07-02 11:06:29] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 11:06:29] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 34 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 200
+
+[2025-07-02 11:08:12] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 11:08:12] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 11:08:13] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 11:08:14] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 11:08:24] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-02 11:08:24] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-07-02 11:08:24] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 7
+[2025-07-02 11:08:24] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-07-02 11:08:24] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 11:08:24] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 174 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 200
+
+[2025-07-02 11:13:07] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-02 11:13:07] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-07-02 11:13:07] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 7
+[2025-07-02 11:13:07] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-07-02 11:13:07] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 11:13:07] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 22 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 200
+
+[2025-07-02 11:13:16] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 11:13:16] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 11:13:17] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 11:13:19] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 11:14:03] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-02 11:14:04] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-07-02 11:14:04] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 7
+[2025-07-02 11:14:04] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-07-02 11:14:04] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 11:14:04] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 432 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 200
+
+[2025-07-02 11:14:43] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-02 11:14:43] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-07-02 11:14:43] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 7
+[2025-07-02 11:14:43] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-07-02 11:14:43] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 11:14:43] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 18 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 200
+
+[2025-07-02 11:15:05] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/7, User: user1
+[2025-07-02 11:15:05] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 7
+[2025-07-02 11:15:05] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-02 11:15:06] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 is added to cache
+[2025-07-02 11:15:06] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 7 returned successfully
+[2025-07-02 11:15:06] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 11:15:06] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 153 ms for GET http://localhost:8081/App7/api/students/7 ,Response Status: 200
+
+[2025-07-02 11:29:14] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 11:29:14] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 11:29:15] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 11:29:16] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 11:30:34] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 11:30:35] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 11:30:36] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 11:35:28] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 11:35:29] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 11:35:30] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 11:40:13] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 11:40:14] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 11:40:16] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 11:48:50] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 11:48:51] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 11:48:52] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 11:49:31] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-02 11:49:31] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-02 11:49:31] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-02 11:49:31] [INFO] [com.krishna.App7.Controller.StudentController] Adding students data in cache...
+[2025-07-02 11:49:31] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-02 11:49:31] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 210 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-07-02 11:49:54] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-02 11:49:54] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-02 11:49:54] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-02 11:49:54] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-02 11:49:54] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 51 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-07-02 11:51:58] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-02 11:51:58] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-02 11:51:58] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-02 11:51:58] [INFO] [com.krishna.App7.Controller.StudentController] Adding students data in cache...
+[2025-07-02 11:51:58] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-02 11:51:58] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 44 ms for GET http://localhost:8081/App7/api/students ,Response Status: 500
+
+[2025-07-02 11:51:58] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-02 11:51:58] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.ContainerException: jakarta.xml.bind.JAXBException: class com.krishna.App7.Model.Students nor any of its super class is known to this context.] with root cause
+[2025-07-02 11:54:12] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 11:54:12] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 11:54:13] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 11:54:14] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 11:54:17] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-02 11:54:17] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-02 11:54:17] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-02 11:54:17] [INFO] [com.krishna.App7.Controller.StudentController] Adding students data in cache...
+[2025-07-02 11:54:17] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-02 11:54:17] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 166 ms for GET http://localhost:8081/App7/api/students ,Response Status: 500
+
+[2025-07-02 11:54:17] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-02 11:54:17] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.ContainerException: jakarta.xml.bind.JAXBException: class com.krishna.App7.Model.Students nor any of its super class is known to this context.] with root cause
+[2025-07-02 11:59:17] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 11:59:17] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 11:59:18] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 11:59:19] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 11:59:21] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-02 11:59:21] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-02 11:59:21] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-02 11:59:21] [INFO] [com.krishna.App7.Controller.StudentController] Adding students data in cache...
+[2025-07-02 11:59:21] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-02 11:59:21] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 144 ms for GET http://localhost:8081/App7/api/students ,Response Status: 500
+
+[2025-07-02 11:59:21] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-02 11:59:21] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.ContainerException: jakarta.xml.bind.JAXBException: class com.krishna.App7.Model.Students nor any of its super class is known to this context.] with root cause
+[2025-07-02 12:00:26] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:00:26] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 12:00:27] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:00:28] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:00:31] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-02 12:00:31] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-02 12:00:31] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-02 12:00:31] [INFO] [com.krishna.App7.Controller.StudentController] Adding students data in cache...
+[2025-07-02 12:00:31] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-02 12:00:31] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 147 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-07-02 12:02:44] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:02:44] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 12:02:45] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:02:46] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:03:11] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:03:12] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:03:13] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:03:20] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-02 12:03:20] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-02 12:03:20] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-02 12:03:20] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-02 12:03:20] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 140 ms for GET http://localhost:8081/App7/api/students ,Response Status: 500
+
+[2025-07-02 12:03:20] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-02 12:03:20] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.ContainerException: jakarta.xml.bind.UnmarshalException: unexpected element (uri:"", local:"students"). Expected elements are <{}student>] with root cause
+[2025-07-02 12:03:24] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:03:24] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 12:03:25] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:03:26] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:03:35] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-02 12:03:35] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-02 12:03:35] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-02 12:03:35] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-02 12:03:35] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 129 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-07-02 12:09:06] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:09:06] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 12:09:07] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:09:09] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:12:06] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:12:07] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:12:09] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:13:04] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:13:05] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:13:06] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:13:51] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:13:52] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:13:53] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:14:04] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:14:05] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:14:06] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:23:36] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:23:37] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:23:38] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:26:54] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:26:55] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:26:57] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:27:30] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:27:31] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:27:32] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:28:39] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:28:39] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:28:41] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:32:35] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:32:36] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:32:37] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:34:28] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:34:29] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:34:30] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:34:52] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:34:53] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:34:54] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:36:35] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:36:35] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:36:36] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:38:28] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:38:29] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:38:30] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:42:15] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-02 12:42:15] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-02 12:42:15] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-02 12:42:15] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-02 12:42:15] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 162 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-07-02 12:44:01] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-02 12:44:01] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 5
+[2025-07-02 12:44:02] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 is updated
+[2025-07-02 12:44:02] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 142 ms for PUT http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-07-02 12:44:15] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-02 12:44:15] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 5
+[2025-07-02 12:44:15] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 is updated
+[2025-07-02 12:44:15] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 29 ms for PUT http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-07-02 12:46:17] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:46:17] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 12:46:17] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] appears to have started a thread named [Common-Cleaner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:79)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:151)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:229)
+ java.base/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+ java.base/java.lang.Thread.run(Thread.java:1575)
+[2025-07-02 12:46:18] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:46:19] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:50:12] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: DELETE, Path: http://localhost:8081/App7/api/students/5, User: user1
+[2025-07-02 12:50:12] [INFO] [com.krishna.App7.Controller.StudentController] Deleting student with id: 5
+[2025-07-02 12:50:12] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 is deleted
+[2025-07-02 12:50:12] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 206 ms for DELETE http://localhost:8081/App7/api/students/5 ,Response Status: 200
+
+[2025-07-02 12:53:02] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-02 12:53:02] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-02 12:53:02] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-02 12:53:02] [INFO] [com.krishna.App7.Controller.StudentController] Adding students data in cache...
+[2025-07-02 12:53:02] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-02 12:53:02] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 86 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-07-02 12:53:18] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-02 12:53:18] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-02 12:53:18] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-02 12:53:18] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-02 12:53:18] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 42 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+
+[2025-07-02 12:54:22] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-02 12:54:22] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 5
+[2025-07-02 12:54:22] [WARNING] [com.krishna.App7.Controller.StudentController] Student with id: 5 is not found
+[2025-07-02 12:54:22] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 99 ms for PUT http://localhost:8081/App7/api/students ,Response Status: 404
+
+[2025-07-02 12:54:32] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-02 12:54:32] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 5
+[2025-07-02 12:54:32] [WARNING] [com.krishna.App7.Controller.StudentController] Student with id: 5 is not found
+[2025-07-02 12:54:32] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 24 ms for PUT http://localhost:8081/App7/api/students ,Response Status: 404
+
+[2025-07-02 12:54:55] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: POST, Path: http://localhost:8081/App7/api/students, User: user1
+[2025-07-02 12:54:55] [INFO] [com.krishna.App7.Controller.StudentController] Creating new student
+[2025-07-02 12:54:55] [INFO] [com.krishna.App7.Controller.StudentController] The student data is added to db
+[2025-07-02 12:54:55] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 108 ms for POST http://localhost:8081/App7/api/students ,Response Status: 201
+
+[2025-07-02 12:55:24] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 12:55:24] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 12:55:24] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] appears to have started a thread named [Common-Cleaner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:79)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:151)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:229)
+ java.base/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+ java.base/java.lang.Thread.run(Thread.java:1575)
+[2025-07-02 12:55:25] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 12:55:26] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 12:55:47] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/5, User: user1
+[2025-07-02 12:55:47] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 5
+[2025-07-02 12:55:47] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-02 12:55:47] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 is added to cache
+[2025-07-02 12:55:47] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 returned successfully
+[2025-07-02 12:55:47] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 12:55:47] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 640 ms for GET http://localhost:8081/App7/api/students/5 ,Response Status: 200
+
+[2025-07-02 12:56:28] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/5, User: user1
+[2025-07-02 12:56:28] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 5
+[2025-07-02 12:56:28] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 5
+[2025-07-02 12:56:28] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 returned successfully
+[2025-07-02 12:56:28] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 12:56:28] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 104 ms for GET http://localhost:8081/App7/api/students/5 ,Response Status: 200
+
+[2025-07-02 13:27:45] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 13:27:45] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 13:27:46] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 13:27:47] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 13:27:58] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 13:27:59] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 13:28:00] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 13:28:06] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] 
+Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/5, User: user1
+[2025-07-02 13:28:06] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 5
+[2025-07-02 13:28:06] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 5
+[2025-07-02 13:28:06] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 returned successfully
+[2025-07-02 13:28:06] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 13:28:06] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 217 ms for GET http://localhost:8081/App7/api/students/5 ,Response Status: 200
+[2025-07-02 13:28:29] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] 
+Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/5, User: user1
+[2025-07-02 13:28:29] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 5
+[2025-07-02 13:28:29] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 5
+[2025-07-02 13:28:29] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 returned successfully
+[2025-07-02 13:28:29] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 13:28:29] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 9 ms for GET http://localhost:8081/App7/api/students/5 ,Response Status: 200
+[2025-07-02 13:29:30] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 13:29:30] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 13:29:31] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 13:29:32] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 13:29:34] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/5, User: user1
+[2025-07-02 13:29:34] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 5
+[2025-07-02 13:29:35] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 5
+[2025-07-02 13:29:35] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 returned successfully
+[2025-07-02 13:29:35] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 13:29:35] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 190 ms for GET http://localhost:8081/App7/api/students/5 ,Response Status: 200
+[2025-07-02 14:25:37] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/5, User: user1
+[2025-07-02 14:25:37] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 5
+[2025-07-02 14:25:37] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-02 14:25:37] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 is added to cache
+[2025-07-02 14:25:37] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 returned successfully
+[2025-07-02 14:25:37] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 14:25:37] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 663 ms for GET http://localhost:8081/App7/api/students/5 ,Response Status: 200
+[2025-07-02 14:25:47] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 14:25:47] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 14:25:48] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-02 14:25:49] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-02 14:26:06] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/5, User: user1
+[2025-07-02 14:26:06] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 5
+[2025-07-02 14:26:06] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 5
+[2025-07-02 14:26:06] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 returned successfully
+[2025-07-02 14:26:06] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-02 14:26:06] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 290 ms for GET http://localhost:8081/App7/api/students/5 ,Response Status: 200
+[2025-07-02 14:26:46] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-02 14:26:46] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-02 14:26:46] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-03 11:54:51] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/5, User: user1
+[2025-07-03 11:54:51] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 5
+[2025-07-03 11:54:52] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-03 11:54:52] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 is added to cache
+[2025-07-03 11:54:52] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 returned successfully
+[2025-07-03 11:54:52] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-03 11:54:52] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 994 ms for GET http://localhost:8081/App7/api/students/5 ,Response Status: 200
+[2025-07-03 11:55:06] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/5, User: user1
+[2025-07-03 11:55:06] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 5
+[2025-07-03 11:55:06] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 5
+[2025-07-03 11:55:06] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 returned successfully
+[2025-07-03 11:55:06] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-03 11:55:06] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 126 ms for GET http://localhost:8081/App7/api/students/5 ,Response Status: 200
+[2025-07-03 11:55:24] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/5, User: user1
+[2025-07-03 11:55:24] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 5
+[2025-07-03 11:55:24] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-03 11:55:24] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 is added to cache
+[2025-07-03 11:55:24] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 returned successfully
+[2025-07-03 11:55:24] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-03 11:55:24] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 109 ms for GET http://localhost:8081/App7/api/students/5 ,Response Status: 200
+[2025-07-03 11:55:32] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/5, User: user1
+[2025-07-03 11:55:32] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 5
+[2025-07-03 11:55:32] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 5
+[2025-07-03 11:55:32] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 returned successfully
+[2025-07-03 11:55:32] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-03 11:55:32] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 164 ms for GET http://localhost:8081/App7/api/students/5 ,Response Status: 200

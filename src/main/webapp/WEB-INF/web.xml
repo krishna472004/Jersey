@@ -1,0 +1,38 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         version="5.0"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd">
+
+    <display-name>REST API App</display-name>
+
+    <servlet>
+        <servlet-name>Jersey REST Service</servlet-name>
+        <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+
+       
+        <init-param>
+            <param-name>jersey.config.server.provider.classnames</param-name>
+            <param-value>
+                com.krishna.App7.Filters.RequestLoggingFilter,
+                com.krishna.App7.Filters.AuthFilter,
+                com.krishna.App7.Filters.RoleFilter,
+                com.krishna.App7.Filters.ResponseLoggingFilter,
+                com.krishna.App7.Filters.SecurityFilter
+            </param-value>
+        </init-param>
+        
+        
+        <init-param>
+            <param-name>jakarta.ws.rs.Application</param-name>
+            <param-value>com.krishna.AppConfig</param-value>
+        </init-param>
+
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Jersey REST Service</servlet-name>
+        <url-pattern>/api/*</url-pattern>
+    </servlet-mapping>
+
+</web-app>
