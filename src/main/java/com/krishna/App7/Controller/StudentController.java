@@ -143,7 +143,7 @@ public class StudentController
 		Student student;
 		String json="";
 		String xml="";
-//		String res="";
+
 		
 		if(accept.equals("application/json"))
 		{
@@ -164,25 +164,13 @@ public class StudentController
 			{
 				json=RedisUtil.get(key);
 				student=service.convertJsonToStudent(json);
-				
-//				res=service.convertStudentToJson(student);
-//				ObjectMapper mapper=new ObjectMapper();
-//				JsonNode node=mapper.readTree(res);
-//				
-//				System.out.println(node.get("name").asText());
+
 			}
 			else
 			{
 				xml=RedisUtil.get(key);
 				student=service.convertXmlToStudent(xml);
-				
-//				DocumentBuilderFactory factory=DocumentBuilderFactory.newInstance();
-//				DocumentBuilder builder=factory.newDocumentBuilder();
-//				InputSource is=new InputSource(new StringReader(xml));
-//				org.w3c.dom.Document doc=builder.parse(is);
-//				
-//				Element element=doc.getDocumentElement();
-//				System.out.println(element.getElementsByTagName("name").item(0).getTextContent());
+
 			}
 
 		}
@@ -218,7 +206,7 @@ public class StudentController
 	}
 	
 	@POST
-	@Consumes({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
+	@Consumes({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML,MediaType.MULTIPART_FORM_DATA})
 	public Response createStudent(Student s,@Context HttpHeaders header) throws SQLException, JsonProcessingException, JAXBException
 	{
 		
@@ -266,7 +254,7 @@ public class StudentController
 	}
 	
 	@PUT
-	@Consumes({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
+	@Consumes({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML,MediaType.MULTIPART_FORM_DATA})
 	public Response updateStudent(Student s,@Context HttpHeaders header) throws SQLException, JsonProcessingException, JAXBException
 	{
 		logger.log(Level.INFO,"Updating student with id: {0}",s.getId());
@@ -283,7 +271,6 @@ public class StudentController
 		{
 			key+="-xml";
 		}
-		
 		
 		if(temp.getId()==0)
 		{
@@ -313,7 +300,10 @@ public class StudentController
 			}
 			
 			RedisUtil.setExpiry(key,3600);
+			RedisUtil.del("students-json");
+			RedisUtil.del("students-xml");
 			
+			System.out.println(s);
 			return Response.ok().entity("The student with id: "+s.getId()+" is updated").build();
 		}
 		

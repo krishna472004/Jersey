@@ -16,10 +16,10 @@ public class ResponseLoggingFilter implements ContainerResponseFilter
 	public void filter(ContainerRequestContext reqc, ContainerResponseContext resc)
 			throws IOException 
 	{
-		Long startTime=(Long) reqc.getProperty("startTime");
+		//Long startTime=(Long) reqc.getProperty("startTime");
 		
-		long duration=System.currentTimeMillis()-startTime;
-	    logger.info("Response sent in "+duration+" ms for "+reqc.getMethod()+" "+reqc.getUriInfo().getRequestUri()+" ,Response Status: "+resc.getStatus());
+		//long duration=System.currentTimeMillis()-startTime;
+	    //logger.info("Response sent in "+duration+" ms for "+reqc.getMethod()+" "+reqc.getUriInfo().getRequestUri()+" ,Response Status: "+resc.getStatus());
 	    
 		
 	}
