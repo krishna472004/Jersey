@@ -30,3 +30,9 @@ export default function StudentDetail({ student, onEdit, onBack }) {
     </div>
   );
 }
+
+// Usage example:
+// import React from 'react';
+// import StudentDetail from './StudentDetail';
+//
+// const student = {

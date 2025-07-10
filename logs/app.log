@@ -2421,3 +2421,16 @@ java.lang.IllegalStateException: Unable to perform operation: create on com.kris
 [2025-07-10 12:56:48] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 115
 [2025-07-10 12:56:48] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 115 returned successfully
 [2025-07-10 12:56:48] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-10 13:02:23] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 13:02:23] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 13:02:23] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 13:02:23] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 13:02:28] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 13:02:28] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 13:02:28] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 1
+[2025-07-10 13:02:28] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 1 is updated
+[2025-07-10 13:02:28] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 13:02:28] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 13:02:28] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-10 13:02:28] [INFO] [com.krishna.App7.Controller.StudentController] Adding students data in cache...
+[2025-07-10 13:02:28] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
