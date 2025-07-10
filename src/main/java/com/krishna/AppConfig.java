@@ -6,6 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 import com.krishna.App7.Controller.StudentController;
+import com.krishna.App7.Filters.CORSFilter;
 import com.krishna.pikachu.Tester;
 
 
@@ -18,7 +19,7 @@ public class AppConfig extends Application
    
         classes.add(StudentController.class);
         classes.add(Tester.class);
-
+        classes.add(CORSFilter.class);
         return classes;
     }
 }

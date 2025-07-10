@@ -1,0 +1,45 @@
+<project name="JerseyApp" basedir="." default="dist">
+    
+    <property name="src.dir" location="src"/>
+    <property name="web.dir" location="web"/>
+    <property name="build.dir" location="build"/>
+    <property name="lib.dir" location="lib"/>
+    <property name="classes.dir" location="${build.dir}/classes"/>
+    <property name="war.file" location="${build.dir}/JerseyApp.war"/>
+
+    <path id="classpath">
+        <fileset dir="${lib.dir}">
+            <include name="**/*.jar"/>
+        </fileset>
+    </path>
+
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="${classes.dir}"/>
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false">
+            <classpath refid="classpath"/>
+        </javac>
+    </target>
+	
+	
+
+    <target name="dist" depends="compile">
+        <mkdir dir="${build.dir}/webapp/WEB-INF/lib"/>
+        <copy todir="${build.dir}/webapp">
+            <fileset dir="${web.dir}"/>
+        </copy>
+        <copy todir="${build.dir}/webapp/WEB-INF/classes">
+            <fileset dir="${classes.dir}"/>
+        </copy>
+        <copy todir="${build.dir}/webapp/WEB-INF/lib">
+            <fileset dir="${lib.dir}"/>
+        </copy>
+
+        <war destfile="${war.file}" webxml="${web.dir}/WEB-INF/web.xml" basedir="${build.dir}/webapp"/>
+    </target>
+	
+  
+</project>

@@ -1496,3 +1496,888 @@ Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/5, U
 [2025-07-03 11:55:32] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 returned successfully
 [2025-07-03 11:55:32] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
 [2025-07-03 11:55:32] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 164 ms for GET http://localhost:8081/App7/api/students/5 ,Response Status: 200
+[2025-07-04 12:14:16] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/5, User: user1
+[2025-07-04 12:14:16] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 5
+[2025-07-04 12:14:16] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-04 12:14:16] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 370 ms for GET http://localhost:8081/App7/api/students/5 ,Response Status: 500
+[2025-07-04 12:14:16] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-04 12:14:16] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-04 12:14:54] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/5, User: user1
+[2025-07-04 12:14:54] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 5
+[2025-07-04 12:14:54] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-04 12:14:54] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 is added to cache
+[2025-07-04 12:14:54] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 returned successfully
+[2025-07-04 12:14:54] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-04 12:14:54] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 238 ms for GET http://localhost:8081/App7/api/students/5 ,Response Status: 200
+[2025-07-04 12:15:46] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/5, User: user1
+[2025-07-04 12:15:46] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 5
+[2025-07-04 12:15:46] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 5
+[2025-07-04 12:15:46] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 returned successfully
+[2025-07-04 12:15:46] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-04 12:15:46] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 66 ms for GET http://localhost:8081/App7/api/students/5 ,Response Status: 200
+[2025-07-07 10:49:36] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/5, User: user1
+[2025-07-07 10:49:36] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 5
+[2025-07-07 10:49:36] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-07 10:49:36] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 is added to cache
+[2025-07-07 10:49:36] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 returned successfully
+[2025-07-07 10:49:36] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-07 10:49:36] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 605 ms for GET http://localhost:8081/App7/api/students/5 ,Response Status: 200
+[2025-07-07 10:49:53] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/5, User: user1
+[2025-07-07 10:49:53] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 5
+[2025-07-07 10:49:53] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 5
+[2025-07-07 10:49:53] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 5 returned successfully
+[2025-07-07 10:49:53] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-07 10:49:53] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 46 ms for GET http://localhost:8081/App7/api/students/5 ,Response Status: 200
+[2025-07-10 09:41:43] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 09:41:43] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 09:41:43] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 09:41:43] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 233 ms for GET http://localhost:8081/App7/api/students ,Response Status: 500
+[2025-07-10 09:41:43] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-10 09:41:43] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-10 09:41:43] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 09:41:43] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 09:41:43] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 09:41:43] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 3 ms for GET http://localhost:8081/App7/api/students ,Response Status: 500
+[2025-07-10 09:41:43] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-10 09:41:43] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-10 09:41:43] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 09:41:43] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 09:41:43] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 09:41:43] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 3 ms for GET http://localhost:8081/App7/api/students ,Response Status: 500
+[2025-07-10 09:41:43] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-10 09:41:43] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-10 09:41:45] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 09:41:45] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 09:41:45] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 09:41:45] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 10 ms for GET http://localhost:8081/App7/api/students ,Response Status: 500
+[2025-07-10 09:41:45] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-10 09:41:45] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-10 09:41:45] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 09:41:45] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 09:41:45] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 09:41:45] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 7 ms for GET http://localhost:8081/App7/api/students ,Response Status: 500
+[2025-07-10 09:41:45] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-10 09:41:45] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-10 09:42:53] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 09:42:53] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 09:42:53] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 09:42:53] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 7 ms for GET http://localhost:8081/App7/api/students ,Response Status: 500
+[2025-07-10 09:42:53] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-10 09:42:53] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-10 09:42:53] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 09:42:53] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 09:42:53] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 09:42:53] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 21 ms for GET http://localhost:8081/App7/api/students ,Response Status: 500
+[2025-07-10 09:42:53] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-10 09:42:53] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-10 09:42:53] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 09:42:53] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 09:42:53] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 09:42:53] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 20 ms for GET http://localhost:8081/App7/api/students ,Response Status: 500
+[2025-07-10 09:42:53] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-10 09:42:53] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-10 10:13:54] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:13:54] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:13:54] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 10:13:54] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 164 ms for GET http://localhost:8081/App7/api/students ,Response Status: 500
+[2025-07-10 10:13:54] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-10 10:13:54] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-10 10:13:54] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:13:54] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:13:54] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 10:13:54] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 15 ms for GET http://localhost:8081/App7/api/students ,Response Status: 500
+[2025-07-10 10:13:54] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-10 10:13:54] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-10 10:13:54] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:13:54] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:13:54] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 10:13:54] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 2 ms for GET http://localhost:8081/App7/api/students ,Response Status: 500
+[2025-07-10 10:13:54] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-10 10:13:54] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-10 10:13:56] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:13:56] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:13:56] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 10:13:56] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 14 ms for GET http://localhost:8081/App7/api/students ,Response Status: 500
+[2025-07-10 10:13:56] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-10 10:13:56] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-10 10:13:56] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:13:56] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:13:56] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 10:13:56] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 28 ms for GET http://localhost:8081/App7/api/students ,Response Status: 500
+[2025-07-10 10:13:56] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-10 10:13:56] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-10 10:13:57] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:13:57] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:13:57] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 10:13:57] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 5 ms for GET http://localhost:8081/App7/api/students ,Response Status: 500
+[2025-07-10 10:13:57] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-10 10:13:57] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-10 10:15:02] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:15:02] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:15:02] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:15:03] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:15:03] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 331 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:15:03] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:15:03] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:15:03] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:15:03] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:15:03] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 9 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 16 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 49 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 10 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:15:04] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 8 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:16:59] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:16:59] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:16:59] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:16:59] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:16:59] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 32 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:16:59] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:16:59] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:16:59] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-10 10:17:00] [INFO] [com.krishna.App7.Controller.StudentController] Adding students data in cache...
+[2025-07-10 10:17:00] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:17:00] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 609 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:17:00] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:17:00] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:17:00] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:17:00] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:17:00] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 12 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:17:00] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:17:00] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:17:00] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:17:00] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:17:00] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 132 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:18:38] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:18:38] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:18:38] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:18:38] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:18:38] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 13 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:18:38] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:18:38] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:18:38] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:18:38] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:18:38] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 11 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:21:14] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:21:14] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:21:14] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:21:14] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:21:14] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 24 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:21:14] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:21:14] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:21:14] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:21:14] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:21:14] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 19 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:21:40] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:21:40] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:21:40] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:21:40] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:21:40] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 17 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:21:40] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:21:40] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:21:40] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:21:41] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:21:41] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 17 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:21:42] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:21:42] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:21:42] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:21:42] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:21:42] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 5 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:21:42] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:21:42] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:21:42] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:21:42] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:21:42] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 47 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:27:12] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:27:12] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:27:12] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:27:12] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:27:12] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 8 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:27:12] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:27:12] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:27:12] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:27:12] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:27:12] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 6 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:27:17] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:27:17] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:27:17] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:27:17] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:27:17] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 15 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:27:17] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:27:17] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:27:17] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:27:17] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:27:17] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 86 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:27:19] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:27:19] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:27:19] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:27:19] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:27:19] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 17 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:27:19] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:27:19] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:27:19] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:27:19] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:27:19] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 67 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:27:20] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:27:20] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:27:20] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:27:20] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:27:20] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 48 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:27:20] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:27:20] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:27:20] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:27:20] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:27:20] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 9 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:27:27] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:27:27] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 360 ms for OPTIONS http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:27:27] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:27:27] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 115
+[2025-07-10 10:27:27] [WARNING] [com.krishna.App7.Controller.StudentController] Student with id: 115 is not found
+[2025-07-10 10:27:27] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 104 ms for PUT http://localhost:8081/App7/api/students ,Response Status: 404
+[2025-07-10 10:28:05] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:28:05] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:28:05] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:28:05] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:28:05] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 9 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:28:05] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:28:05] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:28:05] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:28:05] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:28:05] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 4 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:29:40] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:29:40] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:29:40] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:29:40] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:29:40] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 17 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:29:40] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:29:40] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:29:40] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:29:40] [INFO] [com.krishna.App7.Controller.StudentController] Returned 9 students
+[2025-07-10 10:29:40] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 16 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:32:33] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:32:33] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:32:33] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:32:34] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:32:34] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 198 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:32:45] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:32:45] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:32:45] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:32:45] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:32:45] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 84 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:32:45] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:32:45] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:32:45] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:32:45] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:32:45] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 17 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:42:37] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:42:37] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:42:37] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:42:38] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:42:38] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 136 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:42:42] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:42:42] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:42:42] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:42:42] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:42:42] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 29 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:43:51] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:43:51] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:43:51] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:43:51] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:43:51] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 481 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:44:00] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:44:00] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:44:00] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:44:00] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:44:00] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 106 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:47:14] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:47:14] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:47:14] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:47:14] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:47:14] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 40 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:47:21] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:47:21] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:47:21] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:47:21] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:47:21] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 59 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:47:46] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:47:46] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:47:46] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:47:46] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:47:46] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 65 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:48:06] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:48:06] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:48:06] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:48:06] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:48:06] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 53 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:50:31] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:50:31] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:50:31] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:50:31] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:50:31] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 51 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:50:33] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:50:33] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:50:33] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:50:33] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:50:33] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 12 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:50:57] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:50:57] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:50:57] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:50:57] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:50:57] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 20 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:51:02] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:51:02] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:51:02] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:51:02] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:51:02] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 27 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:51:09] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:51:09] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 42 ms for OPTIONS http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:51:09] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: POST, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:51:09] [INFO] [com.krishna.App7.Controller.StudentController] Creating new student
+[2025-07-10 10:51:09] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 10:51:09] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 18 ms for POST http://localhost:8081/App7/api/students ,Response Status: 500
+[2025-07-10 10:51:09] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-10 10:51:09] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [java.lang.IllegalArgumentException] with root cause
+[2025-07-10 10:53:40] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:53:40] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:53:40] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:53:40] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:53:40] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 53 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:53:44] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:53:44] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:53:44] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:53:44] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:53:44] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 59 ms for GET http://localhost:8081/App7/api/students ,Response Status: 200
+[2025-07-10 10:54:10] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students/6, User: null
+[2025-07-10 10:54:10] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 40 ms for OPTIONS http://localhost:8081/App7/api/students/6 ,Response Status: 200
+[2025-07-10 10:54:10] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error occurred when processing a response created from an already mapped exception.
+[2025-07-10 10:54:10] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 10:54:10] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because "startTime" is null] with root cause
+[2025-07-10 10:56:05] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-10 10:56:05] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-10 10:56:07] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-10 10:56:09] [WARNING] [org.glassfish.jersey.internal.Errors] The following warnings have been detected: WARNING: Unknown HK2 failure detected:
+MultiException stack 1 of 2
+java.lang.Error: Unresolved compilation problems: 
+	The declared package "" does not match the expected package "com.krishna.App7.Filters"
+	Syntax error on token "package", Identifier expected
+
+	at com.krishna.App7.Filters.CORSFilter.<init>(CORSFilter.java:1)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.glassfish.hk2.utilities.reflection.ReflectionHelper.makeMe(ReflectionHelper.java:1356)
+	at org.jvnet.hk2.internal.ClazzCreator.createMe(ClazzCreator.java:271)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:395)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:466)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:59)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:47)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture$1.call(Cache.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture.run(Cache.java:131)
+	at org.glassfish.hk2.utilities.cache.Cache.compute(Cache.java:176)
+	at org.jvnet.hk2.internal.SingletonContext.findOrCreate(SingletonContext.java:98)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2109)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:93)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:67)
+	at org.glassfish.jersey.inject.hk2.AbstractHk2InjectionManager.lambda$getAllServiceHolders$0(AbstractHk2InjectionManager.java:136)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.LinkedList$LLSpliterator.forEachRemaining(LinkedList.java:1250)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at org.glassfish.jersey.inject.hk2.AbstractHk2InjectionManager.getAllServiceHolders(AbstractHk2InjectionManager.java:140)
+	at org.glassfish.jersey.inject.hk2.ImmediateHk2InjectionManager.getAllServiceHolders(ImmediateHk2InjectionManager.java:30)
+	at org.glassfish.jersey.internal.inject.Providers.getServiceHolders(Providers.java:299)
+	at org.glassfish.jersey.internal.inject.Providers.getAllRankedProviders(Providers.java:182)
+	at org.glassfish.jersey.server.ProcessingProvidersConfigurator.postInit(ProcessingProvidersConfigurator.java:89)
+	at org.glassfish.jersey.server.ApplicationHandler.lambda$initialize$2(ApplicationHandler.java:366)
+	at java.base/java.util.Arrays$ArrayList.forEach(Arrays.java:4266)
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:366)
+	at org.glassfish.jersey.server.ApplicationHandler.lambda$initialize$1(ApplicationHandler.java:310)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	at org.glassfish.jersey.internal.Errors.processWithException(Errors.java:232)
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:309)
+	at org.glassfish.jersey.server.ApplicationHandler.<init>(ApplicationHandler.java:274)
+	at org.glassfish.jersey.servlet.WebComponent.<init>(WebComponent.java:311)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:154)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:338)
+	at jakarta.servlet.GenericServlet.init(GenericServlet.java:145)
+	at jakarta.servlet.http.HttpServlet.init(HttpServlet.java:124)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:822)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:792)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:696)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4189)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4472)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3236)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:232)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:4793)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1139)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1143)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1143)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:59)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+MultiException stack 2 of 2
+java.lang.IllegalStateException: Unable to perform operation: create on com.krishna.App7.Filters.CORSFilter
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:428)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:466)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:59)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:47)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture$1.call(Cache.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture.run(Cache.java:131)
+	at org.glassfish.hk2.utilities.cache.Cache.compute(Cache.java:176)
+	at org.jvnet.hk2.internal.SingletonContext.findOrCreate(SingletonContext.java:98)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2109)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:93)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:67)
+	at org.glassfish.jersey.inject.hk2.AbstractHk2InjectionManager.lambda$getAllServiceHolders$0(AbstractHk2InjectionManager.java:136)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.LinkedList$LLSpliterator.forEachRemaining(LinkedList.java:1250)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at org.glassfish.jersey.inject.hk2.AbstractHk2InjectionManager.getAllServiceHolders(AbstractHk2InjectionManager.java:140)
+	at org.glassfish.jersey.inject.hk2.ImmediateHk2InjectionManager.getAllServiceHolders(ImmediateHk2InjectionManager.java:30)
+	at org.glassfish.jersey.internal.inject.Providers.getServiceHolders(Providers.java:299)
+	at org.glassfish.jersey.internal.inject.Providers.getAllRankedProviders(Providers.java:182)
+	at org.glassfish.jersey.server.ProcessingProvidersConfigurator.postInit(ProcessingProvidersConfigurator.java:89)
+	at org.glassfish.jersey.server.ApplicationHandler.lambda$initialize$2(ApplicationHandler.java:366)
+	at java.base/java.util.Arrays$ArrayList.forEach(Arrays.java:4266)
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:366)
+	at org.glassfish.jersey.server.ApplicationHandler.lambda$initialize$1(ApplicationHandler.java:310)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	at org.glassfish.jersey.internal.Errors.processWithException(Errors.java:232)
+	at org.glassfish.jersey.server.ApplicationHandler.initialize(ApplicationHandler.java:309)
+	at org.glassfish.jersey.server.ApplicationHandler.<init>(ApplicationHandler.java:274)
+	at org.glassfish.jersey.servlet.WebComponent.<init>(WebComponent.java:311)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:154)
+	at org.glassfish.jersey.servlet.ServletContainer.init(ServletContainer.java:338)
+	at jakarta.servlet.GenericServlet.init(GenericServlet.java:145)
+	at jakarta.servlet.http.HttpServlet.init(HttpServlet.java:124)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:822)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:792)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:696)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4189)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4472)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3236)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:232)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:4793)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1139)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1143)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1143)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:59)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+
+[2025-07-10 10:56:09] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7]] Servlet.init() for servlet [Jersey REST Service] threw exception
+[2025-07-10 10:56:09] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7]] Servlet [Jersey REST Service] in web application [/App7] threw load() exception
+[2025-07-10 10:56:09] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-10 10:56:21] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-10 10:56:22] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-10 10:56:23] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-10 10:56:34] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-10 10:56:35] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-10 10:56:36] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-10 10:56:37] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students/6, User: null
+[2025-07-10 10:56:37] [INFO] [com.krishna.App7.Filters.ResponseLoggingFilter] Response sent in 277 ms for OPTIONS http://localhost:8081/App7/api/students/6 ,Response Status: 200
+[2025-07-10 10:56:37] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error occurred when processing a response created from an already mapped exception.
+[2025-07-10 10:56:37] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 10:56:37] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because "startTime" is null] with root cause
+[2025-07-10 10:56:39] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error occurred when processing a response created from an already mapped exception.
+[2025-07-10 10:56:39] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 10:56:39] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because "startTime" is null] with root cause
+[2025-07-10 10:56:40] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error occurred when processing a response created from an already mapped exception.
+[2025-07-10 10:56:40] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 10:56:40] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because "startTime" is null] with root cause
+[2025-07-10 10:56:40] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error occurred when processing a response created from an already mapped exception.
+[2025-07-10 10:56:40] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 10:56:40] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because "startTime" is null] with root cause
+[2025-07-10 10:56:40] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error occurred when processing a response created from an already mapped exception.
+[2025-07-10 10:56:40] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 10:56:40] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because "startTime" is null] with root cause
+[2025-07-10 10:56:41] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error occurred when processing a response created from an already mapped exception.
+[2025-07-10 10:56:41] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 10:56:41] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because "startTime" is null] with root cause
+[2025-07-10 10:56:41] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error occurred when processing a response created from an already mapped exception.
+[2025-07-10 10:56:41] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 10:56:41] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because "startTime" is null] with root cause
+[2025-07-10 10:56:41] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error occurred when processing a response created from an already mapped exception.
+[2025-07-10 10:56:41] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 10:56:41] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because "startTime" is null] with root cause
+[2025-07-10 10:56:41] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error occurred when processing a response created from an already mapped exception.
+[2025-07-10 10:56:41] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 10:56:41] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because "startTime" is null] with root cause
+[2025-07-10 10:58:14] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-10 10:58:15] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-10 10:58:16] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-10 10:58:49] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-10 10:58:50] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-10 10:58:51] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-10 10:59:02] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-10 10:59:03] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-10 10:59:04] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-10 10:59:04] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students/6, User: null
+[2025-07-10 10:59:13] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students/6, User: null
+[2025-07-10 10:59:18] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 10:59:18] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 10:59:18] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 10:59:18] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 10:59:22] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students/6, User: null
+[2025-07-10 11:03:41] [INFO] [org.apache.catalina.core.StandardServer] A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+[2025-07-10 11:03:41] [INFO] [org.apache.coyote.http11.Http11NioProtocol] Pausing ProtocolHandler ["http-nio-8081"]
+[2025-07-10 11:03:42] [INFO] [org.apache.catalina.core.StandardService] Stopping service [Catalina]
+[2025-07-10 11:03:42] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-10 11:03:42] [INFO] [org.apache.coyote.http11.Http11NioProtocol] Stopping ProtocolHandler ["http-nio-8081"]
+[2025-07-10 11:03:42] [INFO] [org.apache.coyote.http11.Http11NioProtocol] Destroying ProtocolHandler ["http-nio-8081"]
+[2025-07-10 11:03:51] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:03:51] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:03:52] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:03:52] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:03:56] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students/8, User: null
+[2025-07-10 11:05:27] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:05:27] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:05:27] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:05:27] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:05:35] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:05:35] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:05:35] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:05:35] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:05:39] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:05:39] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:05:40] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 6
+[2025-07-10 11:05:40] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 6 is updated
+[2025-07-10 11:05:40] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:05:40] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:05:40] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:05:40] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:05:50] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:05:51] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:05:51] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 6
+[2025-07-10 11:05:51] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 6 is updated
+[2025-07-10 11:05:51] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:05:51] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:05:51] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:05:51] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:05:55] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:05:55] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:05:55] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:05:55] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:06:02] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:06:02] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:06:02] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 6
+[2025-07-10 11:06:02] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 6 is updated
+[2025-07-10 11:06:02] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:06:02] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:06:02] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:06:02] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:06:33] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:06:33] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:06:33] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 8
+[2025-07-10 11:06:33] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 8 is updated
+[2025-07-10 11:06:33] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:06:33] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:06:33] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:06:33] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:06:38] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:06:38] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:06:38] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:06:38] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:06:56] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:06:56] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:06:56] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:06:56] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:07:07] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:07:07] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: POST, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:07:07] [INFO] [com.krishna.App7.Controller.StudentController] Creating new student
+[2025-07-10 11:07:07] [INFO] [com.krishna.App7.Controller.StudentController] The student data is added to db and cache
+[2025-07-10 11:07:08] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:07:08] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:07:08] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:07:08] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:07:13] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:07:13] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:07:13] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:07:13] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:08:13] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students/8, User: null
+[2025-07-10 11:08:13] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: DELETE, Path: http://localhost:8081/App7/api/students/8, User: null
+[2025-07-10 11:08:13] [INFO] [com.krishna.App7.Controller.StudentController] Deleting student with id: 8
+[2025-07-10 11:08:13] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 8 is deleted
+[2025-07-10 11:08:13] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:08:13] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:08:13] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-10 11:08:13] [INFO] [com.krishna.App7.Controller.StudentController] Adding students data in cache...
+[2025-07-10 11:08:13] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:08:22] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:08:22] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:08:22] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 9
+[2025-07-10 11:08:22] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 9 is updated
+[2025-07-10 11:08:22] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:08:22] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:08:22] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:08:22] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:08:27] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:08:27] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:08:27] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:08:28] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:08:32] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:08:32] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:08:32] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:08:32] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:08:42] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:08:42] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:08:42] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 6
+[2025-07-10 11:08:42] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 6 is updated
+[2025-07-10 11:08:42] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:08:42] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:08:42] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:08:42] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:08:46] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:08:46] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:08:46] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:08:46] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:10:57] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:10:57] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:10:57] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:10:57] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:11:01] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:11:01] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:11:01] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:11:01] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:11:06] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:11:06] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:11:06] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 9
+[2025-07-10 11:11:06] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 9 is updated
+[2025-07-10 11:11:06] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:11:06] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:11:06] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:11:06] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:11:10] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:11:10] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:11:10] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:11:10] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:12:46] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/9, User: user1
+[2025-07-10 11:12:46] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 9
+[2025-07-10 11:12:46] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-10 11:12:46] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 9 is added to cache
+[2025-07-10 11:12:46] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 9 returned successfully
+[2025-07-10 11:12:46] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-10 11:13:01] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:13:01] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:13:01] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 9
+[2025-07-10 11:13:01] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 9 is updated
+[2025-07-10 11:13:01] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:13:01] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:13:01] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:13:01] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:13:05] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/9, User: user1
+[2025-07-10 11:13:05] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 9
+[2025-07-10 11:13:05] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 9
+[2025-07-10 11:13:05] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 9 returned successfully
+[2025-07-10 11:13:05] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-10 11:13:08] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/9, User: user1
+[2025-07-10 11:13:08] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 9
+[2025-07-10 11:13:08] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 9
+[2025-07-10 11:13:08] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 9 returned successfully
+[2025-07-10 11:13:08] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-10 11:14:31] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-10 11:14:32] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-10 11:14:33] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-10 11:14:34] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-10 11:14:46] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:14:46] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:14:46] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 9
+[2025-07-10 11:14:46] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 9 is updated
+[2025-07-10 11:14:47] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:14:47] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 9
+[2025-07-10 11:14:47] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 9 is updated
+[2025-07-10 11:14:47] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:14:47] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:14:47] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:14:47] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:14:47] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:14:47] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:14:47] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:14:47] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:14:51] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:14:51] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:14:51] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:14:51] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:15:02] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/9, User: user1
+[2025-07-10 11:15:02] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 9
+[2025-07-10 11:15:03] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 9
+[2025-07-10 11:15:03] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 9 returned successfully
+[2025-07-10 11:15:03] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-10 11:15:09] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:15:09] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:15:09] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:15:09] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:15:15] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:15:15] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:15:15] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 115
+[2025-07-10 11:15:15] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 115 is updated
+[2025-07-10 11:15:15] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:15:15] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:15:15] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:15:15] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:15:18] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:15:18] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:15:18] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:15:18] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:15:55] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-10 11:15:55] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-10 11:15:56] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-10 11:15:57] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed
+[2025-07-10 11:16:01] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:16:01] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:16:01] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:16:01] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:16:08] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:16:08] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:16:08] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 115
+[2025-07-10 11:16:09] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 115 is updated
+[2025-07-10 11:16:09] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:16:09] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:16:09] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:16:09] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:17:09] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:17:09] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:17:09] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:17:09] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:17:22] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/9, User: user1
+[2025-07-10 11:17:22] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 9
+[2025-07-10 11:17:22] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 9
+[2025-07-10 11:17:22] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 9 returned successfully
+[2025-07-10 11:17:22] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-10 11:17:26] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/115, User: user1
+[2025-07-10 11:17:26] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 115
+[2025-07-10 11:17:26] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-10 11:17:26] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 115 is added to cache
+[2025-07-10 11:17:26] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 115 returned successfully
+[2025-07-10 11:17:26] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-10 11:19:25] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:19:25] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:19:25] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:19:25] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:21:49] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:21:49] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:21:49] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:21:50] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:21:56] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students/9, User: null
+[2025-07-10 11:22:24] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:22:24] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:22:24] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:22:24] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:22:28] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:22:28] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:22:28] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:22:28] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:22:33] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:22:33] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:22:33] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 9
+[2025-07-10 11:22:33] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 9 is updated
+[2025-07-10 11:22:34] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:22:34] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:22:34] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:22:34] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:22:38] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:22:38] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:22:38] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:22:38] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:22:49] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/9, User: user1
+[2025-07-10 11:22:49] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 9
+[2025-07-10 11:22:49] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 9
+[2025-07-10 11:22:49] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 9 returned successfully
+[2025-07-10 11:22:49] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-10 11:23:03] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:23:03] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:23:03] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:23:03] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:23:08] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:23:08] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:23:08] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:23:09] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:23:14] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:23:14] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:23:14] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 115
+[2025-07-10 11:23:14] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 115 is updated
+[2025-07-10 11:23:14] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 11:23:14] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 11:23:14] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 11:23:14] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 11:23:20] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/115, User: user1
+[2025-07-10 11:23:20] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 115
+[2025-07-10 11:23:20] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for student with id: 115
+[2025-07-10 11:23:20] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 115 returned successfully
+[2025-07-10 11:23:20] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-10 12:45:54] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 12:45:54] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 12:45:54] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 12:45:54] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-10 12:45:54] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-10 12:46:11] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 12:46:11] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 12:46:11] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 12:46:11] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-10 12:46:11] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-10 12:47:39] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 12:47:39] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 12:47:39] [WARNING] [org.glassfish.jersey.server.ServerRuntime$Responder] An exception mapping did not successfully produce and processed a response. Logging the exception propagated to the default exception mapper.
+[2025-07-10 12:47:39] [SEVERE] [org.glassfish.jersey.server.ServerRuntime$Responder] Error while closing the output stream in order to commit response.
+[2025-07-10 12:47:39] [SEVERE] [org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/App7].[Jersey REST Service]] Servlet.service() for servlet [Jersey REST Service] in context with path [/App7] threw exception [redis.clients.jedis.exceptions.JedisConnectionException: Failed to connect to any host resolved for DNS name.] with root cause
+[2025-07-10 12:49:52] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 12:49:52] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 12:49:53] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 12:49:53] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 12:50:03] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: OPTIONS, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 12:50:04] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: PUT, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 12:50:04] [INFO] [com.krishna.App7.Controller.StudentController] Updating student with id: 115
+[2025-07-10 12:50:04] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 115 is updated
+[2025-07-10 12:50:04] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students, User: null
+[2025-07-10 12:50:04] [INFO] [com.krishna.App7.Controller.StudentController] Fetching all Students
+[2025-07-10 12:50:04] [INFO] [com.krishna.App7.Controller.StudentController] Cache hit for fetching of all students
+[2025-07-10 12:50:04] [INFO] [com.krishna.App7.Controller.StudentController] Returned 10 students
+[2025-07-10 12:50:27] [INFO] [com.krishna.App7.Filters.RequestLoggingFilter] Incoming Request Method: GET, Path: http://localhost:8081/App7/api/students/115, User: user1
+[2025-07-10 12:50:27] [INFO] [com.krishna.App7.Controller.StudentController] Fetching student with id: 115
+[2025-07-10 12:50:27] [INFO] [com.krishna.App7.Controller.StudentController] Cache miss. Fetching all students from DB
+[2025-07-10 12:50:27] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 115 is added to cache
+[2025-07-10 12:50:27] [INFO] [com.krishna.App7.Controller.StudentController] Student with id: 115 returned successfully
+[2025-07-10 12:50:27] [INFO] [com.krishna.App7.Controller.StudentController] The Student email is: sa************@gmail.com 
+[2025-07-10 12:54:12] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] has started
+[2025-07-10 12:54:12] [WARNING] [org.apache.catalina.loader.WebappClassLoaderBase] The web application [App7] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2025-07-10 12:54:13] [INFO] [org.apache.jasper.servlet.TldScanner] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-07-10 12:54:14] [INFO] [org.apache.catalina.core.StandardContext] Reloading Context with name [/App7] is completed

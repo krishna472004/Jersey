@@ -34,7 +34,6 @@ public class StudentService
 		}
 	}
 	
-	
 	public String convertStudentToXml(Student s) throws JAXBException
 	{
 		JAXBContext context=JAXBContext.newInstance(Student.class);

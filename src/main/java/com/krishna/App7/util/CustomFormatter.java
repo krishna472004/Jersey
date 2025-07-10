@@ -1,4 +1,4 @@
-package com.krishna.App7.Controller;
+package com.krishna.App7.util;
 
 import java.util.logging.Formatter;
 import java.util.logging.LogRecord;

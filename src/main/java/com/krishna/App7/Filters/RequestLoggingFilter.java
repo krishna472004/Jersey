@@ -24,7 +24,7 @@ public class RequestLoggingFilter implements ContainerRequestFilter
 		URI path=reqc.getUriInfo().getRequestUri();
 		String method=reqc.getMethod();
 
-		reqc.setProperty("startTime",System.currentTimeMillis());
+		//reqc.setProperty("startTime",System.currentTimeMillis());
 		
 		System.out.println();
 		logger.log(Level.INFO,"Incoming Request Method: "+method+", Path: "+path+", User: "+user);
